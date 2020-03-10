@@ -180,7 +180,7 @@ export default class App extends React.Component{
           <View style={styles.containerBorder}>
             <View style={styles.container2}>
 
-              <Text style={styles.title}>BLIK WIK PO</Text>
+              <Text style={styles.title}>BLIK<br /> WIK<br /> PO <br /></Text>
 
               <View style = {{flexDirection:"row"}}>
 
@@ -322,7 +322,12 @@ const styles = StyleSheet.create({
   },
 
   rButton:{
-    marginTop:10,
+    top:10,
+  },
+
+  title:{
+    paddingBottom:10,
+    fontSize:30,
   },
 
 });
